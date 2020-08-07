@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { Navbar, Nav, Button } from "react-bootstrap";
 import { logout } from "../helpers";
 export default () => {
-  const authenticated = JSON.parse(localStorage.authenticated);
+  const authenticated = JSON.parse(localStorage.authenticated || "false");
 
   return (
     <Navbar bg="light" expand="lg">
