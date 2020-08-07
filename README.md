@@ -16,4 +16,4 @@ In order to run this app do the next steps
 ## How private route works
 
 There is an item on localStorage named <code>authenticated</code> by default its value is <code>false</code>.
-the <code>authenticated value on will be changed due to login process, if you are logged in it will be <code>true</code> otherwise it will be <code>false</code>.
+the <code>authenticated</code> value on will be changed due to login process, if you are logged in it will be <code>true</code> otherwise it will be <code>false</code>.
